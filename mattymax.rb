@@ -9,7 +9,7 @@ require 'slim'
 
 get '/' do
   puts '/'
-  'h3ll0 dude(tte)!'
+  slim :root
 end
 
 # [noun] say [verb] to [noun]

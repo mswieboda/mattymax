@@ -1,4 +1,4 @@
 require 'rubygems'
-require './mattymax'
+require 'middleman/rack'
 
-run Sinatra::Application
+run Middleman.server
