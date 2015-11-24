@@ -1,7 +1,7 @@
 # /----------------------------------------------------------.
 # |  mattymax.rb                                             |
 #_|                                                          |
-# TODO: swash commits (the wierd ones, AKA most of them?)    |
+# TODO: sqwash commits (the wierd ones, AKA most of them?)   |
 #\___________________________________________________________/
 
 require 'sinatra'
