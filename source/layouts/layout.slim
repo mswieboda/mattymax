@@ -4,18 +4,10 @@ html
     meta charset="utf-8"
     meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"
     title
-      = current_page.data.title || "Matty Max"
+      = current_page.data.title || "matt"
     = stylesheet_link_tag "normalize"
     = stylesheet_link_tag "all"
   body
-    header role="banner"
-      div.nav-wrapper
-        nav role="navigation"
-          ul#menu
-            li.nav-link
-              a href="#projects" projs
-            li.nav-link
-              a href="#skills" skillz
     div.content
       = yield
     = javascript_include_tag "all"
