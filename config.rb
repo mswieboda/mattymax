@@ -1,5 +1,5 @@
-# MATTS SHIT
-require 'mattymax'
+# Matt Stuff
+# require 'mattymax'
 
 ###
 # Compass
