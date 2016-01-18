@@ -66,12 +66,18 @@ h1, h2, h3, h4, h5, h6 {
       display: inline-block;
       height: 131px;
       width: 131px;
-      border: 1px solid #0f0;
+      border: 0px solid #0f0;
       margin: 13px;
 
-      div {
-        position: relative;
-        top: 50%;
+      // TODO: remove after switching all to icons
+      div { position: relative; top: 50%; }
+
+      &.icon {
+        svg {
+          width: 131px;
+          height: 131px;
+          fill: #0f0;
+        }
       }
 
       &.me {
@@ -99,7 +105,7 @@ h1, h2, h3, h4, h5, h6 {
       }
 
       &.soundcloud {
-        top: 0.75em;
+        top: 6.66em;
         left: -0.666em;
       }
 
