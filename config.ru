@@ -18,7 +18,7 @@ unless ENV['RACK_ENV'] == 'development'
 end
 
 use Rack::Cache,
-  verbose: true
+  verbose: true,
   metastore: 'file:/var/cache/rack/meta',
   entitystore: 'file:/var/cache/rack/body'
 
