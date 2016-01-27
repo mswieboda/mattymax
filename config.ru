@@ -12,10 +12,10 @@ require 'rack/deflater'
 require 'rack/cache'
 
 # Forces SSL on all requests
-unless ENV['RACK_ENV'] == 'development'
-  require 'rack/ssl'
-  use Rack::SSL
-end
+# unless ENV['RACK_ENV'] == 'development'
+#  require 'rack/ssl'
+#  use Rack::SSL
+# end
 
 use Rack::Cache,
   :verbose => true,
