@@ -15,6 +15,8 @@ $ gem install eventmachine -v '1.0.8' -- --with-cppflags="-I/usr/local/opt/opens
 
 $ foreman start
 
+note: seems to say tcp://0.0.0.0:5000, but `localhost:5000` worked instead
+
 open up your internet page, and go to the URL...
 
 look and see the bull shit I've created for myself...
